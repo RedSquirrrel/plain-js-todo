@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+body {
+  background: linear-gradient(to right, #2e3192, #1bffff);
+  font-family: 'Original Surfer', cursive;
+}
+
+.container {
+  margin-top: 5rem;
+  max-width: 600px;
+  margin-bottom: 10rem;
+}
+
+input[type='text'],
+input[type='text']:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+input[type='text'] {
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.4);
+  padding: 1.5rem;
+}
+
+input[type='text']::placeholder {
+  color: #c5bdbd;
+}
+
+.todos li {
+  box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.4);
+  background: #6f868179;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.text {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.filtered {
+  display: none !important;
+}
+
+span:hover {
+  opacity: 0.8;
+}
+
+.completed {
+  text-decoration: line-through;
+  text-decoration-color: rgb(119, 112, 112);
+  opacity: 0.2;
+  transform: scale(0.96);
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  font-size: clamp(0.5rem, 1.3vw, 1rem);
+}
+
+a {
+  text-decoration: none;
+  color: #2e3192;
+}
+
+@media screen and (max-width: 375px) {
+  .todos li {
+    font-size: 0.8rem;
+  }
+}
