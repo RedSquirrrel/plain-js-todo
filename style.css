@@ -3,6 +3,7 @@
 body {
   background: linear-gradient(to right, #2e3192, #1bffff);
   font-family: 'Original Surfer', cursive;
+  user-select: none;
 }
 
 .container {
@@ -39,6 +40,7 @@ i {
   background: #6f868179;
   margin-top: 1rem;
   font-size: 1.3rem;
+  cursor: pointer;
 }
 
 .delete {

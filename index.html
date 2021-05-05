@@ -29,31 +29,15 @@
             class="form-control m-auto"
             type="text"
             name="search"
-            placeholder="Search todos ..."
+            placeholder="Type here to search todos ..."
           />
         </form>
       </header>
 
-      <ul class="list-group todos mx-auto text-light">
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span>Read for 1 hour</span>
-          <i class="far fa-trash-alt delete"></i>
-        </li>
-
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span>Learn how to build a todo app in different ways</span>
-          <i class="far fa-trash-alt delete"></i>
-        </li>
-
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span>Play something </span>
-          <i class="far fa-trash-alt delete"></i>
-        </li>
-      </ul>
+      <ul class="list-group todos mx-auto text-light"></ul>
 
       <form class="addTodo text-center my-4">
-        <label class="text">Add a new todo...</label>
-        <input class="form-control m-auto" type="text" name="add" />
+        <input class="form-control m-auto" type="text" name="add" placeholder="Add a new todo..." />
       </form>
     </div>
 
@@ -63,7 +47,6 @@
         <a href="https://github.com/RedSquirrrel" target="_blank"> @RedSquirrrel</a>
         <span class="date"> </span>
       </p>
-      <!-- <p class="date"></p> -->
     </footer>
 
     <script src="app.js"></script>
